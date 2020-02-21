@@ -1,0 +1,36 @@
+body{
+  background-color: rgb(37, 44, 61);
+}
+
+.header-centrar{
+  margin-top: 20px;
+}
+
+.boton-centrar{
+  margin-top: 5px;
+}
+
+.boton{
+  height: 200px;
+  border-radius: 25px;
+  opacity: 0.5;
+  transition: opacity 500ms;
+  margin-top: 30px;
+  pointer-events: auto;
+}
+
+#boton1{
+  background-color: orange;
+}
+
+#boton2{
+  background-color: red;
+}
+
+#boton3{
+  background-color: green;
+}
+
+#boton4{
+  background-color: blue;
+}
