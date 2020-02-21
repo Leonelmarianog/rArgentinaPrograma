@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea 1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="tarea1.css"/>
+</head>
+
+<body>
+
+    <form id="calculador-edades">
+        <label for="cantidad-integrantes">Ingrese la cantidad de integrantes</label>
+        <input type="number" id="cantidad-integrantes"/>
+        <button type="submit" id="siguiente-paso">Siguiente</button>
+
+        <div id="integrantes">
+
+        </div>
+
+        <button type="button" id="calcular" class="oculto">Calcular</button>
+
+        <div id="analisis" class="oculto"> 
+            <p>La mayor edad es <strong id="mayor-edad"></strong></p>
+            <p>La menor edad es <strong id="menor-edad"></strong></p>
+            <p>El promedio es <strong id="promedio-edad"></strong></p>
+        </div>
+
+        <button type="button" id="resetear">Resetear</button>
+
+
+    </form>
+    
+    <script src="tarea1-calculos.js"></script>
+    <script src="tarea1.js"></script>
+</body>
+</html>
