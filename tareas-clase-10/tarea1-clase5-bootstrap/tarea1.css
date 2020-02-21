@@ -1,0 +1,14 @@
+body{
+    background-attachment: fixed;/*Hace que el background no se vea cortado (?)*/
+    background-color: #FFE53B;
+    background-image: linear-gradient(147deg, #FFE53B 0%, #FF2525 74%);
+}
+
+.form-control:focus {/*:focus --> Al seleccionar, este estilo cambia el color de borde de los inputs.*/
+    border-color: rgb(251, 255, 0);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px rgba(255, 208, 0, 0.829);/*Agrega sombras a elementos HTML*/
+}
+
+.form-centrar{
+    margin-top: 15%;
+}
