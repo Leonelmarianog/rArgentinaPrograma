@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tarea 3</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="tarea3.css" >
+
+</head>
+
+<body>
+
+    <header>
+        <h1>¿Cuantas horas de video hemos acumulado? Averiguemoslo!</h1>
+        <h2>Ingresa la duracion de cada video para ver el tiempo total acumulado!</h2>
+    </header>
+
+    <form>
+
+        <label>Horas</label>
+        <input type="number" id="horas" ></input>
+        <label>Minutos</label>
+        <input type="number" id="minutos" ></input>
+        <label>Segundos</label>
+        <input type="number" id="segundos" ></input>
+        <button type="button" id="calcular-tiempo-total" >Calcular tiempo total</button>
+
+        <div>
+            <br/>
+            <strong class="tiempo-total"></strong>
+        </div>
+
+    </form>
+
+    <script src="tarea3-calculos.js"></script> 
+    <script src="tarea3.js" ></script>
+
+</body>
+
+</html>
