@@ -1,0 +1,104 @@
+body{
+    background-color: #1a1d2a;
+}
+
+#color1{
+    background-color: orange;
+}
+
+#color2{
+    background-color: red;
+}
+
+#color3{
+    background-color: green;
+}
+
+#color4{
+    background-color: blue;
+}
+
+#color5{
+    background-color: purple;
+}
+
+#color6{
+    background-color: yellow;
+}
+
+#color7{
+    background-color: teal;
+}
+
+#color8{
+    background-color: white;
+}
+
+.carta{
+    height: 100px;
+    width: 70px;
+    position: absolute;
+    top: 0px;
+    z-index: 10;
+    opacity: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.carta-boca-abajo{
+    background-color: grey;
+    height: 100px;
+    width: 70px;
+    position: relative;
+    z-index: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#contenedor-cartas{
+    width: 400px;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #202435;
+}
+
+#contenedor-boton{
+    margin-top:5px;
+    width: 280px;
+    background-color: #202435
+}
+
+.boton{
+    margin:10px;
+}
+
+#contenedor-mensaje{
+    width: 520px;
+    margin-top: 25px;
+    background-color: #202435;
+    color: white;
+}
+
+.oculto{
+    display: none;
+}
+
+#contenedor-timer{
+    color: white;
+    background-color: #202435;
+    width: 200px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+footer{
+    color: white;
+    margin-top: 5px;
+    background-color: #202435;
+}
+
+
+
+
+
+

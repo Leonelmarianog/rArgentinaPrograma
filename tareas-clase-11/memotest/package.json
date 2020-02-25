@@ -1,0 +1,23 @@
+{
+  "name": "memotest",
+  "version": "1.0.0",
+  "description": "Creacion de memotest desde cero",
+  "main": "index.js",
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Leonelmarianog/rArgentinaPrograma.git"
+  },
+  "author": "Leonel Gauna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Leonelmarianog/rArgentinaPrograma/issues"
+  },
+  "homepage": "https://github.com/Leonelmarianog/rArgentinaPrograma#readme"
+}

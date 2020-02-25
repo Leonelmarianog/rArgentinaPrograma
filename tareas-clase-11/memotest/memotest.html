@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Memotest</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--<link rel="stylesheet" href="..\..\node_modules\bootstrap\dist\css\bootstrap.min.css\">-->
+    <link rel="stylesheet" href="memotest.css">
+
+</head>
+
+<body>
+
+    <div id="contenedor-boton" class="container">
+
+        <div class="row justify-content-center no-gutters">
+
+            <div class="col-auto">
+
+                <div><button id="empezar" type="button" class="boton">Empezar</button></div>
+
+            </div>
+
+            <div class="col-auto">
+
+                <div><button id="reiniciar-juego" type="button" class="boton">Reiniciar Juego</button></div>
+
+            </div>
+
+        </div>
+
+    </div>
+    
+    <div id="contenedor-timer" class="container">
+
+        <div class="row justify-content-center">
+
+            <div class="col-auto">
+                <div>Tiempo Restante:</div>
+            </div>
+
+            <div class="col-auto">
+                <div id="timer">60</div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="contenedor-cartas" class="container">
+        
+        <div class="row">
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color1" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color1" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color2" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color2" class="carta"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color3" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color3" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color4" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color4" class="carta"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color5" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color5" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color6" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color6" class="carta"></div>
+            </div>
+
+        </div>
+
+        <div class="row">
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color7" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color7" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color8" class="carta"></div>
+            </div>
+
+            <div class="col">
+                <div class="carta-boca-abajo"></div>
+                <div id="color8" class="carta"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div id="contenedor-mensaje" class="container oculto">
+
+        <div class="row">
+
+            <div class="col-auto">
+                <div id="mensaje"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer class="fixed-bottom">
+
+        <div class="footer-copyright text-center py-3">Leonel Gauna © 2020
+            <a href="https://github.com/leonelmarianog">Github</a>
+        </div>
+
+    </footer>
+ 
+    <script type="text/javascript" src="memotest.js"></script>
+
+</body>
+
+</html>
