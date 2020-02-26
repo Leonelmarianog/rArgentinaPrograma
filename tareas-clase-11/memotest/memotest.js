@@ -18,6 +18,8 @@ $botonEmpezar.onclick = empezarJuego;
 
 $botonReiniciar.onclick = reiniciarJuego;
 
+bloquearBotonReiniciar();
+
 
 
 function empezarJuego(){
@@ -29,6 +31,8 @@ function empezarJuego(){
     desbloquearBotonReiniciar();
 
     repartirCartas();
+
+    desbloquearTodasLasCartas();
 
     inputJugador();
 
@@ -297,7 +301,7 @@ function reiniciarJuego(){
     bloquearBotonReiniciar();
     reiniciarEstado();
     mostrarContenedorCartas();
-    desbloquearTodasLasCartas();
+    bloquearTodasLasCartas();
     desbloquearBotonEmpezar();
 
 }
@@ -311,6 +315,20 @@ function reiniciarEstado(){
     pares = 0;
 
     segundos = 59;
+
+}
+
+function bloquearTodasLasCartas(){
+
+    const $cartas = document.querySelectorAll(".carta");
+
+    $cartas.forEach(function($carta){
+
+        $carta.style.opacity = 0;
+
+        $carta.style.pointerEvents = "none";
+
+    });
 
 }
 
