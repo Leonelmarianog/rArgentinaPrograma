@@ -1,4 +1,4 @@
-let numeros = [];
+let numeros = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8];
 
 let $pares = [];
 
@@ -31,28 +31,6 @@ function empezarJuego(){
     repartirCartas();
 
     inputJugador();
-
-}
-
-function obtenerNumeros(){//Obtengo pares de mismos numeros ej: [2,2,3,3,4,4,5,5,6,6,7,7,8,8]
-
-    let aux = 0;
-
-    while(numeros.length < 16){//Menor a 16 ya que son 16 cartas.
-
-        let numero1 = Math.floor(Math.random()*8 + 1);// *8 ya que tengo 8 colores.
-        let numero2 = Math.floor(Math.random()*8 + 1);
-        
-        if(numero1 === numero2 && numero1 !== aux){//Si numero1 y numero2 son iguales y ademas numero1 es distinto a aux, entonces se entra al if, esto es para evitar pares de numeros repetidos.
-
-            numeros.push(numero1);
-            numeros.push(numero2);
-
-            aux = numero1;//Guardo el numero que meti en el array en una variable auxiliar para compararlo con el siguiente numero y verificar que NO sean iguales.
-
-        }
-
-    }
 
 }
 
@@ -89,8 +67,6 @@ function asignarColores(numeros){//Asigna los colores a las cartas en base a los
 }
 
 function repartirCartas(){
-
-    obtenerNumeros();
 
     mezclarNumeros(numeros);
 
@@ -328,7 +304,7 @@ function reiniciarJuego(){
 
 function reiniciarEstado(){
 
-    numeros = [];
+    numeros = [1,1,2,2,3,3,4,4,5,5,6,6,7,7,8,8];
 
     $pares = [];
 
